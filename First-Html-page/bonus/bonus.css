@@ -61,10 +61,7 @@ h5{
 
 @media(max-width:890px){
     .card{
-        width: 50vh;
-        height: 50vh;
-        margin-top: 50%;
-        margin-left: 110%;
+        width: 80%;
     }
     .card-img{
         padding-top: 13vh;
@@ -73,14 +70,10 @@ h5{
         padding-top: 5vh;
     }
     .background-bottom{
-        position: absolute;
-        left: 60%;
-        top: 90vh;
+        bottom: 30%;
+        width: 110%;
     }
     .background-top{
-        position: absolute;
-        right: -10vh;
-        top: -50vh;
+        width: 150%;
     }
-
 }

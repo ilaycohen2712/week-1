@@ -1,29 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+   
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Personal Site Challenge </title>
-        <!-- Font Import -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet"> -->
-        <!-- CSS Files -->
+        <link rel="stylesheet" href="style.css">
+         <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet"> 
+        <!-- CSS Files -->  
     </head>
     <body>
-        I'm a Dev Club Member.
-        a programmer 
-        Hello.
-        I am a Web Developer.And I ❤️ to code
-        My Skills.
-        Design & Development
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-        Debugging
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-        Get In Touch
-        If you love coding as much as I do.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur quisquam deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum ducimus, rerum alias! Quos cum, sequi molestiae itaque id sunt!
-        LinkedIn
-        Twitter
-        Website
-        © DevClub
+        <div class="first-container">
+           <h1 class="maintxt">I'm a Dev Club Member</h1>
+           <h2>a <u>pro</u>grammer</h2>
+            <img class="up-cloud" src="./asset/cloud.png" alt="cloud1">
+            <img class="down-cloud" src="./asset/cloud.png" alt="cloud1">
+            <img  class="mountain"src="./asset/mountain.png"alt="mountatin">
+        </div>
+        <div class="second-container">
+            <img class="avatar"src="data:image/jpeg;base64,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" alt="">
+            <h2>Hello.</h2>
+            <p> I am a Web Developer.And I ❤️ to code</p>
+
+        </div>
+            <hr>
+        <div class="thired-container">
+            <div class="row">
+            <h2>My Skills.</h2>
+             <h3>Design & Development</h3>
+             <img src="https://media2.giphy.com/media/ZVik7pBtu9dNS/giphy.gif?cid=790b7611d344f46908d45bef90595f14561c150e3704b568&rid=giphy.gif&ct=g" class="gif1" alt="">
+             <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem
+                 harum molestiae necessitatibus impedit placeat, rem consectetur provident.
+                  Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
+             </p>
+            </div>
+            <div class="row">
+             <h3>Debugging</h3>
+             <img class="gif2" src="https://i.giphy.com/media/ukMiDlCmdv2og/giphy.webp" alt="">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem
+                harum molestiae necessitatibus impedit placeat, rem consectetur provident.
+                Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
+              </p> 
+            </div>    
+        </div>
+            <hr>
+        <div class="fourth-container">
+           <h2> Get In Touch</h2>
+           <h3>If you love coding as much as I do.</h3>
+            <p class="get-in">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur
+                deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum 
+                ducimus, rerum alias! Quos cum, sequi molestiae itaque id sunt!
+            </p>
+            <p class= >
+            <button class="btn">CONTANT ME</button>
+            </p>  
+        </div>
+        <div class="contact-me">
+            <a class="contant-link" href="">LinkedIn</a>
+            <a class="contant-link" href="">Twitter</a>
+            <a class="contant-link" href="">Website</a>
+              <footer>© DevClub</footer> 
+        </div>
+       
     </body>
+   
 </html>

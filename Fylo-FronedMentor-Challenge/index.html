@@ -1,22 +1,74 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fylo data storage component</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        <!-- Font Import -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <!-- CSS Files -->
+         <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Fylo data storage component</title>
-</head>
+    <body>
+        <div class="block">
 
-<body>
+          <div class="main">
 
-  You’ve used 815 GB of your storage
+            <div class="fylobackground">
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-</body>
+              <div class="Fylo">
+                  <img src="./assets/logo.svg" alt="Fylo">
+              </div>
+
+              <div class="icons">
+                  <div>
+                    <img src="./assets/icon-document.svg" alt="document-icon">
+                  </div>
+                  <br>
+                  <div>
+                    <img src="./assets/icon-folder.svg" alt="folder-icon">
+                  </div>
+                  <br>
+                  <div>
+                    <img src="./assets/icon-upload.svg" alt="upload-icon">
+                  </div>
+                  <br>
+              </div>
+
+              </div>
+              
+              <div class="storage">
+                  <div class="rectangle-block">
+                      <div class="rectangle">
+                        <br>
+                          <p class="GBLeft">185</p>
+                          <p class="GBLeftText"><b>GB LEFT</b></p>
+                          <div class="triangle"></div>
+                      </div>
+                  </div>
+            
+                <div class="storageBox">
+                    <p class="main-text">You've used <b>815 GB </b>of your storage</p>
+                    <br>
+                    <div class="progressBar-block">
+                        <div class="progressBar">
+                            <div class="progressBarMeter">
+                              <div class="progressBarBall"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lastGB">
+                      <div>0 GB</div>
+                      <br>
+                      <div> 1000 GB</div>
+                  </div>
+              </div>  
+            </div>  
+          </div>
+
+        </div>
+    </body>
 </html>

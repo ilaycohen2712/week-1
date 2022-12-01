@@ -1,0 +1,143 @@
+body{
+    background-color:hsl(229, 57%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+.bg-desktop{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+    
+}
+
+.GBtable{
+    position: relative;
+    padding: 2.5rem 1rem 1rem 1rem;
+    background-color: hsl(228, 56%, 26%);
+    width:500px;
+    height: 100px;
+    color:hsl(229, 7%, 55%);
+    font-family: 'Raleway' , 22.4px , regular;
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: auto;
+    border-radius: 10px;
+    
+    
+    
+
+}
+.fylo_table{
+    display: flex;
+    padding: 5px 30px;
+    background-color: hsl(228, 56%, 26%);
+    width:250px;
+    height:175px;
+    font-family:'Raleway' , 48px , bold;
+    border-radius: 15px 100px 15px 15px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: auto;
+    
+    
+
+}
+.floating-sections{
+    margin-bottom: 7vh;
+    width: 60vw;
+    height: 30vh;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    
+}
+.gbleft{
+    color:white ;
+}
+
+.icons{ 
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    gap: 20px;
+   
+}
+.logos{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px;
+    width: 30px;
+    color: hsl(243, 100%, 93%);
+    border-radius:10px;
+}
+.text-above-bar{
+    display: block;
+    height:30%;
+
+}
+.progress-bar{
+    height: 10%;
+    width:100%;
+    display: block;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    
+}
+.progress-color{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to right,hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    border-radius: 10px;
+
+}
+.point{
+    position: absolute;
+    right: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+.bubble{
+    position: absolute;
+    background-color: white;
+    left: 100%;
+    top: 0;
+    transform: translate(-110%,-70%);
+    width: 40%;
+    padding: 1rem;
+    font-size: 44px;
+    font-weight: 700;
+    color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    text-align: center;
+}
+.bubble-left{
+    font-size: 14px;
+    color: hsl(229, 7%, 55%);
+    transform: translate(0,-100%);
+}
+.triangle-topright{
+    position: absolute;
+    right: 4.8%;
+    top:10%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid white;
+    border-left: 50px solid transparent;
+    z-index:10;
+  }

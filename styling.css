@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+.top-div
+{
+    background-color: #E4F9F5;
+    
+}
+.bottom-div
+{
+    background-color: #66BFBF;
+}
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud
+{
+   position:absolute;
+   left: 250px;
+   bottom: 300px;
+
+}
+h1,h2
+{
+    color:#66BFBF;
+    
+}
+
+h3
+{
+    color :#11999E;
+   
+}
+h1
+{
+    font-family:'Sacramento';
+
+}
+h2,h3,h4,h5,h6
+{
+   font-family:'Montserrat';
+}
+button
+{
+    color: #11cdd4 
+     hover = #30e3cb;
+     
+}

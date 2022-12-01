@@ -5,25 +5,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Personal Site Challenge </title>
         <!-- Font Import -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
         <!-- CSS Files -->
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        I'm a Dev Club Member.
-        a programmer 
-        Hello.
-        I am a Web Developer.And I ❤️ to code
-        My Skills.
-        Design & Development
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-        Debugging
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?
-        Get In Touch
-        If you love coding as much as I do.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci consectetur quisquam deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum ducimus, rerum alias! Quos cum, sequi molestiae itaque id sunt!
-        LinkedIn
-        Twitter
-        Website
-        © DevClub
+        
+        <header class="header">
+            <img class="cloud-right" src="asset/cloud.png" alt="cloud">
+            <img class="cloud-left" src="asset/cloud.png" alt="cloud">
+            <h1 class="title">I'm a Dev Club Member.</h1>
+            <h2 class="underline">a <span>pro</span>grammer</h2>
+            <img class="mountain" src="asset/mountain.png" alt="mountain">
+        </header>
+        
+        <div class="divBox1">
+            <img id="annonymous-logo" src="asset/Anonymous-Logo.png" alt="hacker">
+            <h2>Hello.</h2>
+            <h3>I am a Web Developer, And I ❤️ to code</h3>
+            <h4 class="dotsInTheMiddle">........</h4>
+        </div>
+
+        <div class="Skills">
+            <h2>My Skills.</h2>
+            <div class="firstSkill">
+                <h2 class="designTitle">Design & Development</h2>
+                <p class="designText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident. 
+                    Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?</p>
+                <iframe class="firstGif" src="https://giphy.com/embed/ZVik7pBtu9dNS" width="200px" height="145px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+
+            <div class="secondSkill">
+                <h2 class="debugTitle">Debugging</h2>
+                <iframe class="secondGif" src="https://giphy.com/embed/ukMiDlCmdv2og" width="200px" height="145px" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <p class="debuggingText">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quis illum autem harum molestiae necessitatibus impedit placeat, rem consectetur provident.
+                    Ex laudantium odit fugit quo aliquam corporis nulla quaerat quas incidunt?</p>
+            </div>
+
+            <div class="bottomSection">
+                <h2>Get In Touch</h2>
+                <h3>If you love coding as much as I do.</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Adipisci consectetur <br> quisquam deleniti, molestiae reiciendis atque hic blanditiis suscipit voluptates harum <br>ducimus, rerum alias!
+                    Quos cum, sequi molestiae itaque id sunt!</p>
+                <button class="contact-me-button"> CONTACT ME </button>
+            </div>
+        </div>
+        
+        <div class="footerDiv">
+            <footer>
+                <p class="footerLinks">LinkedIn</p> 
+                <p class="footerLinks">Twitter</p> 
+                <p class="footerLinks">Website</p> 
+                <p class="footerDevclub">© DevClub</p> 
+            </footer>
+        </div>
+
     </body>
 </html>

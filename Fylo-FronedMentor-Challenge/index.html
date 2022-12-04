@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <title>Fylo data storage component</title>
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <body>
+    <div id="container">
+      <div id="mainContent">
+        <div id="logoBox" class="content">
+            <div class="logo">
+              <img src="./assets/logo.svg" alt="Logo">
+            </div>
+          <div id="actions">
+           <button class="button"><img src="./assets/icon-document.svg" alt="document"></button>
+           <button class="button"><img src="./assets/icon-folder.svg" alt="folder"></button>
+           <button class="button"><img src="./assets/icon-upload.svg" alt="upload"></button>
+         </div>
+        </div>
+        <div id="storageBox" class="content">
+          <div class="triangle"></div>
+            <p id="usedMemory"> You’ve used <span id="current"><strong>815 GB</strong></span> of your storage</p>
+            <div id="Bar">
+              <div id="Fill"></div>
+              <div id="Ball"></div>
+            </div>
+            <p id="Min" class="Limit">0</p>
+            <p id="Max" class="Limit">1000 GB</p>
+            <p id="Left">
+              <span id="Remaining">185</span> GB Left
+            </p>
+        </div>
+
+      </div>
+        <div id="background"></div>
+
+    </div>
+  </div>
+  </body>
+  </html>
